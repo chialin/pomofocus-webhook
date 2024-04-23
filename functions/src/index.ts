@@ -10,6 +10,8 @@
 import { initializeApp, database } from 'firebase-admin';
 import { onRequest } from 'firebase-functions/v2/https';
 import * as logger from 'firebase-functions/logger';
+import 'dotenv/config';
+
 // Start writing functions
 // https://firebase.google.com/docs/functions/typescript
 
